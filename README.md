@@ -58,8 +58,8 @@ Using what you have learned about Express, Express Routing, RESTful routing, CRU
 ## Bonus:
 
 1. Add a second model to your API. This model should relate to your first model via a 1:M relationship. Once added, update your GET and POST routes for this second model which allow you do the following with your API: 
-  * Show all elements from second model that relate to your element from first model at :id. 
-  * Add a new element to your original model that include related elements from this second model at :id.
+    * Show all elements from second model that relate to your element from first model at :id. 
+    * Add a new element to your original model that include related elements from this second model at :id.
 2. Add PUT and DELETE functionality to your second model
 3. Add a third model to your API, that has a M:M relationship to one one the other two models. Support GET and POST functionality.
 4. Add UPDATE and DELETE to your functionality to your M:M model.
