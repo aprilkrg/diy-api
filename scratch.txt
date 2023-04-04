@@ -1,1 +1,20 @@
-sequelize model:create --name=show --attributes title:string,description:string,spooky:boolean,watched:boolean
+model ideas:
+- picture post( instagram) => comment
+- thread (creates a forum) => comment
+
+a thread is created with this data:
+- id of post (created by db)
+- user who created the post (username for 1:M, replace with id for N:M)
+- title of post
+- text content of post
+- parent forum if applicable (forum name for 1:M, replace with id for N:M)
+
+thread = {
+    id: number,
+    title: string,
+    content: string,
+    parent_forum: string,
+    user: string
+}
+
+sequelize model:create --name=forum --attributes title:string,content:string,parent_forum:string,user:string
