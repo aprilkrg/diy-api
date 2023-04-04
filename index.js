@@ -4,6 +4,10 @@ const showsController = require("./controllers/shows")
 
 const PORT = 3000
 
+//MIDDLEWARE
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
+
 // app.use for controllers
 app.use("/shows", showsController)
 

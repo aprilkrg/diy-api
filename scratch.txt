@@ -1,0 +1,1 @@
+sequelize model:create --name=show --attributes title:string,description:string,spooky:boolean,watched:boolean
