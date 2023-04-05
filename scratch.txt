@@ -5,8 +5,8 @@ model ideas:
 a thread is created with this data:
 - id of post (created by db)
 - user who created the post (username for 1:M, replace with id for N:M)
-- title of post
-- text content of post
+- title of thread
+- text content of thread
 - parent forum if applicable (forum name for 1:M, replace with id for N:M)
 
 thread = {
