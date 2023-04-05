@@ -1,5 +1,5 @@
 model ideas:
-- picture post( instagram) => comment
+- picture post( instagram) => like
 - thread (creates a forum) => comment
 
 a thread is created with this data:
